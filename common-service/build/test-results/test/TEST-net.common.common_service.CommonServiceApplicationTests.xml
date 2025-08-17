@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.common.common_service.CommonServiceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-27T08:34:46.480Z" hostname="LAPTOP-HMUAB2LN" time="1.173">
+  <properties/>
+  <testcase name="contextLoads()" classname="net.common.common_service.CommonServiceApplicationTests" time="1.173"/>
+  <system-out><![CDATA[14:04:44.971 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [net.common.common_service.CommonServiceApplicationTests]: CommonServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:04:45.127 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration net.common.common_service.CommonServiceApplication for test class net.common.common_service.CommonServiceApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.4)
+
+2025-07-27T14:04:45.779+05:30  INFO 2892 --- [common-service] [    Test worker] n.c.c.CommonServiceApplicationTests      : Starting CommonServiceApplicationTests using Java 17.0.15 with PID 2892 (started by mayur.chavhan in C:\temp\microservice\Cafe\Restaurant\common-service)
+2025-07-27T14:04:45.789+05:30  INFO 2892 --- [common-service] [    Test worker] n.c.c.CommonServiceApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-07-27T14:04:46.461+05:30  INFO 2892 --- [common-service] [    Test worker] n.c.c.CommonServiceApplicationTests      : Started CommonServiceApplicationTests in 1.064 seconds (process running for 2.97)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

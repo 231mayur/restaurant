@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.common",
+    "module": "common-service",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "common-service-0.0.1-SNAPSHOT-plain.jar",
+          "url": "common-service-0.0.1-SNAPSHOT-plain.jar",
+          "size": 4711,
+          "sha512": "10c2ad6ad9eff9ecf7e3ebdecd0d8d2c27bb8ab71492dd40c088fcff94f93a0bd020dcb46d3f4ffcda458a210d890d68a5d6a72531053a7558d48165c44cf3ba",
+          "sha256": "c57515e1711f22164b5874da23822646f103c7f2af35c365aed465752dc689b8",
+          "sha1": "abbd72ad1722fc36929d59fcc0d0090c37e20da3",
+          "md5": "8ff5a36f05d829851204bdcaeeabffac"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        },
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-service-0.0.1-SNAPSHOT-plain.jar",
+          "url": "common-service-0.0.1-SNAPSHOT-plain.jar",
+          "size": 4711,
+          "sha512": "10c2ad6ad9eff9ecf7e3ebdecd0d8d2c27bb8ab71492dd40c088fcff94f93a0bd020dcb46d3f4ffcda458a210d890d68a5d6a72531053a7558d48165c44cf3ba",
+          "sha256": "c57515e1711f22164b5874da23822646f103c7f2af35c365aed465752dc689b8",
+          "sha1": "abbd72ad1722fc36929d59fcc0d0090c37e20da3",
+          "md5": "8ff5a36f05d829851204bdcaeeabffac"
+        }
+      ]
+    }
+  ]
+}
